@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagy_Benedek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Táblázatok</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Táblázat</a></li>
+            <li><a href="tablazat.html">Táblázat1</a></li>
+            <li><a href="stílus.tablazat.css"></a></li>
+        
+
+        </ul>
+    </nav>
+    <article>
+        <section class="pelda">
+        <p>A táblázat funkciója az adatok rendszerezése</p>
+        <table>
+             <!--Ez egy sor-->
+            <tr>
+                <th>cella1</th>
+                <th>cella2</th>
+                <th>cella3</th>
+                <th>cella4</th>
+                <th>cella5</th>
+               
+            </tr>
+            <!--Ez az első sor vége-->
+            <tr>
+                <td>sor 1.cella1</td>
+                <td>sor 1.cella2</td>
+                <td>sor 1.cella3</td>
+                <td>sor 1.cella3</td>
+                <td>sor 1.cella4</td>
+                <td>sor 1.cella5</td>
+            </tr>
+            <tr>
+                <td>sor 2.cella1</td>
+                <td rowspan="2" class="összevont"></td>
+                <td>sor 2.cella3</td>
+                <td>sor 2.cella3</td>
+                <td rowspan="2" class="összevont"></td>
+                <td>sor 2.cella5</td>
+                
+            </tr>
+            <tr>
+                <td>sor 3.cella1</td>
+                <td>sor 3.cella2</td>
+                <td>sor 3.cella3</td>
+                <td>sor 3.cella3</td>
+                <td>sor 3.cella4</td>
+                <td>sor 3.cella5</td>
+                
+            </tr>
+            <tr>
+                <td>sor 4.cella1</td>
+                <td>sor 4.cella2</td>
+                <td>sor 4.cella3</td>
+                <td>sor 4.cella3</td>
+                <td colspan="2" class="összevont"></td> 4.cella4</td>
+                <td>sor 4.cella5</td>
+                
+            </tr>
+        </table>
+        </section>
+
+    </article>
+</body>
+</html>
